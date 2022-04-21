@@ -1,6 +1,19 @@
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!Project B3/[Aa]ssets/**/*.meta
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+test/[Ll]ibrary/
+test/[Tt]emp/
+test/[Oo]bj/
+test/[Bb]uild/
+test/[Bb]uilds/
+test/[Ll]ogs/
+test/[Mm]emoryCaptures/
+test/UserSettings/
 
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!test/[Aa]ssets/**/*.meta
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
